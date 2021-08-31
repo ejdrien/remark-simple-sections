@@ -1,0 +1,21 @@
+{
+  "name": "remark-simple-sections",
+  "version": "1.0.0",
+  "description": "Simple remark plugin for wrapping level 2 headings with <section>.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "keywords": [
+    "remark",
+    "sections"
+  ],
+  "repository": "ejdrien/remark-simple-sections",
+  "author": "Adrián Zámečník (https://adrianzamecnik.cz)",
+  "license": "MIT",
+  "dependencies": {
+    "unist-util-find-after": "^4.0.0",
+    "unist-util-visit": "^4.0.0"
+  }
+}
